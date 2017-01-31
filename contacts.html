@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <style type="text/css">	
+        .fracMain {	width: 4em; }
+        .fracPart {	width: 100%;}
+        .inlineText {display: inline-block;
+                      vertical-align: inherit;}
+        .inlineMath {display: inline-block;
+                      vertical-align: middle;}
+        .blockMath {display: block;}   
+        * {margin: 0;  padding: 0;} 
+        html, body {height: 100%;}
+        .wrapper {  display: flex;  flex-direction: column;  height: 100%;}
+        .content {  flex: 1 0 auto;
+                    margin-left: 10%;}
+        .footer {  flex: 0 0 auto;
+                   margin-left: 10%;
+                   margin-bottom: 10%;}  
+        }       
+
+        /* structure */   
+        .wrapper{  width: 100%; 
+	               margin: 0 auto;  }
+        .header{   padding:15px 0;   }
+        #banner{ text-align:left; } 
+
+
+        /*MAIN MENU*/
+        .srt-menu{ clear:both;
+	               margin-bottom:60px;}
+	    .srt-menu ul { list-style-type: none; }
+	    .srt-menu li {display: inline;}
+        .srt-menu li a {
+	            color:#666;
+	            background:#dadada;
+	        	margin:1px 0; 
+	            padding:10px;
+	            text-decoration:none;
+	            font-size: 1.5em;}
+        .srt-menu li a:hover{
+	            background:#5ec79e;
+	            color:#fff;}
+
+	    /*my large link*/
+	    .my-large-link a {color:#666;
+	            background:#dadada;
+	        	margin: 40px 40px 40px 0px; 
+	            padding: 5px;
+	            text-decoration:none;
+	            font-size: 1.2em;}
+
+	    .my-large-link a:hover{
+	            background:#5ec79e;
+	            color:#fff;}
+      
+        
+	
+    </style>
+    <!-- gluing fotter to bottom as given in http://dimox.name/press_footer_bottom_with_css
+         I only added margin-left: 10%;  margin-bottom: 10%; -->
+	<title>Игры разума в Коктебеле</title>
+</head>
+
+<body>
+<div class="wrapper">
+<div class="content">
+    <div class="header" id="banner">        
+        	<div id="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div> 
+    </div>
+
+    <div>
+    	<p>Куликов Дмитрий Александрович</p>
+    	<p>место работы: МБОУ Коктебельская школа</p>
+    	<p>e-mail: ozhegino@yandex.ru</p>
+    	<p>vk: vk.com/kulikov1980</p>
+    </div>
+
+    
+
+</div>
+
+<div class="footer">
+    <div class="my-large-link"><a href="index.html">На главную</a></div>
+    <!--You can NOT remove this attribution statement from any page, unless you get the permission from prowebdesign. <div id="attribution" class="wrapper clearfix" style="color:#666; font-size:11px;">Site built with <a href="http://www.prowebdesign.ro/simple-responsive-template/" target="_blank" title="Simple Responsive Template is a free software by www.prowebdesign.ro" style="color:#777;">Simple Responsive Template</a></div> end attribution-->
+
+</div>
+</div>
+
+</body>
+</html>
