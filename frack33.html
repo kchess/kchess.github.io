@@ -6,13 +6,13 @@
 <head>
     <meta charset="utf-8">
     <style type="text/css">	
-        .fracMain {	width: 4em; }
-        .fracPart {	width: 100%;}
-        .inlineText {display: inline-block;
+        .frac-main {	width: 4em; }
+        .frac-part {	width: 100%;}
+        .inline-text {display: inline-block;
                       vertical-align: inherit;}
-        .inlineMath {display: inline-block;
+        .inline-math {display: inline-block;
                       vertical-align: middle;}
-        .blockMath {display: block;}   
+        .block-math {display: block;}   
         	
         html, body {height: 100%;}
         .wrapper {  display: flex;  flex-direction: column;  height: 100%;}
@@ -52,72 +52,72 @@
 
     <img src="./images/img1.jpg" height="50%" id="fig">
 
-    <div class="inlineText">
+    <div class="inline-text">
         <p><textarea rows="10" cols="35" name="text" id="log"></textarea></p>
     </div>
 </div>
 <div class="footer">
 <form id="fracs" name="fracs" action = "">
-    <div class="blockMath">
+    <div class="block-math">
        <input type="text" name="notes">
-       <p class="inlineMath"> - для заметок </p>
+       <p class="inline-math"> - для заметок </p>
     </div> 
 
-    <div class="inlineMath">
-    <fieldset class="fracMain" id="frac1" name="frac1">
+    <div class="inline-math">
+    <fieldset class="frac-main" id="frac1" name="frac1">
         <p>
-    	<input class="fracPart" name="numOfFrac1" type="number" value="1">
+    	<input class="frac-part" name="numOfFrac1" type="number" value="1">
         </p>     
         <p>&mdash;</p>
         <p>
-    	<input class="fracPart" name="denOfFrac1" type="number" value="4">
+    	<input class="frac-part" name="denOfFrac1" type="number" value="4">
         </p>
     </fieldset>  
     </div>
 
-    <div class="inlineMath">
+    <div class="inline-math">
     	<p> 	+      </p>
     </div>
 
-    <div class="inlineMath">
-    <fieldset class="fracMain" id="frac2" name="frac2">
+    <div class="inline-math">
+    <fieldset class="frac-main" id="frac2" name="frac2">
         <p>
-    	<input class="fracPart" name="numOfFrac2" type="number" value="2">
+    	<input class="frac-part" name="numOfFrac2" type="number" value="2">
         </p>     
         <p>&mdash;</p>
         <p>
-    	<input class="fracPart" name="denOfFrac2" type="number" value="4">
+    	<input class="frac-part" name="denOfFrac2" type="number" value="4">
         </p>
     </fieldset>  
     </div>
 
-    <div class="inlineMath">
+    <div class="inline-math">
     	<p> 	=      </p>
     </div>
 
-    <div class="inlineMath">
-    <fieldset class="fracMain" id="frac3" name="frac3">
+    <div class="inline-math">
+    <fieldset class="frac-main" id="frac3" name="frac3">
         <p>
-    	<input class="fracPart" name="numOfFrac3" type="number" value="3">
+    	<input class="frac-part" name="numOfFrac3" type="number" value="3">
         </p>     
         <p>&mdash;</p>
         <p>
-    	<input class="fracPart" name="denOfFrac3" type="number" value="4">
+    	<input class="frac-part" name="denOfFrac3" type="number" value="4">
         </p>
     </fieldset>  
     </div>
 
-    <div class="blockMath">
+    <div class="block-math">
         <input type="button" onclick="showValue();" value="Проверить">
         <input type="button" onclick="generateExample();" value="Следующий">
         <input type="button" onclick="showTip();" value="Подсказка">
     </div>
 
-    <!--    <div class="inlineMath">
+    <!--    <div class="inline-math">
     	<p id="val_of_frac3"></p>
     </div> -->  
 
-    <div class="blockMath last-line" id="message">
+    <div class="block-math last-line" id="message">
     	<p></p>
     </div>
     
