@@ -13,17 +13,16 @@
         .inlineMath {display: inline-block;
                       vertical-align: middle;}
         .blockMath {display: block;}   
-        * {margin: 0;  padding: 0;} 
-	
+        	
         html, body {height: 100%;}
         .wrapper {  display: flex;  flex-direction: column;  height: 100%;}
         .content {  flex: 1 0 auto;
                     margin-left: 10%;}
+	.last-line {margin-bottom: 20px;}
         .footer {  flex: 0 0 auto;
                    margin-left: 10%;
                    margin-bottom: 10%;} 
-	.footer.[class*='last-line'] {margin-bottom: 20px;}
-            
+	            
          /*my large link*/
         .my-large-link a {color:#666;
                 background:#dadada;
@@ -34,7 +33,9 @@
 
         .my-large-link a:hover{
                 background:#5ec79e;
-                color:#fff;}        
+                color:#fff;}    
+	    
+	 * {margin: 0;  padding: 0;}    
     </style>
     <!-- gluing fotter to bottom as given in http://dimox.name/press_footer_bottom_with_css
          I only added margin-left: 10%;  margin-bottom: 10%; -->
